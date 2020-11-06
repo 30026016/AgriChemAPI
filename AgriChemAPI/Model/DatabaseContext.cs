@@ -22,5 +22,6 @@ namespace AgriChemAPI.Model
         public DbSet<Reason> Reason { get; set; }
         public DbSet<Status> Status { get; set; }
         public DbSet<AgriChemicalApplication> AgriChemicalApplication { get; set; }
+        public DbSet<Login> Login { get; set; }
     }
 }
